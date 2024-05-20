@@ -64,7 +64,7 @@ const Hero = () => {
            <MagicButton
             title="Upptäck"
             icon={<FaLocationArrow />}
-            position="right"
+            position="right"  
             />
         </a>
         </div>
