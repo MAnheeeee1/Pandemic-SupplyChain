@@ -3,6 +3,8 @@ import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { SiGooglemaps } from "react-icons/si";
+import { MdApi } from "react-icons/md";
 
 
 const Hero = () => {
@@ -63,7 +65,7 @@ const Hero = () => {
           <a href="#about">
            <MagicButton
             title="Upptäck"
-            icon={<FaLocationArrow />}
+            icon={<MdApi />}
             position="right"  
             />
         </a>
