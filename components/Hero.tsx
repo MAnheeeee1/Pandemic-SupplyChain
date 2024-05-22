@@ -3,10 +3,13 @@ import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { SiGooglemaps } from "react-icons/si";
+import { MdApi } from "react-icons/md";
 
 
 const Hero = () => {
   return (
+    
     <div className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
@@ -60,13 +63,13 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Transparanta för ett hållbart produktion.
           </p>
-          <a href="#about">
-           <MagicButton
-            title="Upptäck"
-            icon={<FaLocationArrow />}
-            position="right"
-            />
-        </a>
+             <a href="#about">
+              <MagicButton
+                title="Upptäck"
+                icon={<MdApi />}
+                position="right"  
+                />
+            </a>
         </div>
       </div>
     </div>
