@@ -9,6 +9,7 @@ import { MdApi } from "react-icons/md";
 
 const Hero = () => {
   return (
+    
     <div className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
