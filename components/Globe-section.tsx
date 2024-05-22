@@ -27,8 +27,8 @@ export function GlobeDemo() {
     rings: 1,
     maxRings: 3,
     initialPosition: { lat: 22.3193, lng: 114.1694 },
-    autoRotate: true,
-    autoRotateSpeed: 0.5,
+    autoRotate: false,
+    autoRotateSpeed: 0,
   };
   const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
   const sampleArcs = [
@@ -53,7 +53,7 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black-100  w-full">
+    <div className="flex flex-row items-center justify-center py-20 h-[90%] md:h-auto dark:bg-black-100  w-full">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <motion.div
           initial={{
@@ -77,7 +77,7 @@ export function GlobeDemo() {
           </h2>
 
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40  pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
+        <div className="absolute w-full bottom-0 inset-x-0 h-40 pointer-events-none select-none from-transparent" />
         <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>
