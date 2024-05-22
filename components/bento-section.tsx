@@ -14,7 +14,7 @@ import {
 
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto">
+    <BentoGrid className="max-w-4xl mx-auto my-10">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -66,16 +66,6 @@ const items = [
   {
     title: "The Pursuit of Knowledge",
     description: "Join the quest for understanding and enlightenment.",
-    header: <Skeleton />,
-  },
-  {
-    title: "The Joy of Creation",
-    description: "Experience the thrill of bringing ideas to life.",
-    header: <Skeleton />,
-  },
-  {
-    title: "The Spirit of Adventure",
-    description: "Embark on exciting journeys and thrilling discoveries.",
     header: <Skeleton />,
   },
 ];

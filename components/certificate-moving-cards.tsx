@@ -5,7 +5,7 @@ import { CertficateScroll } from "./ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] items-center justify-center relative overflow-hidden">
+    <div className="h-[40rem] rounded-md flex flex-col antialiased dark:bg-black-100  items-center justify-center relative overflow-hidden">
       <CertficateScroll
         items={testimonials}
         direction="right"
