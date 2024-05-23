@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Link from "next/link";
 const World = dynamic(() => import("./ui/Globe").then((m) => m.World), {
   ssr: false,
 });
@@ -53,7 +53,7 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-[90%] md:h-auto dark:bg-black-100  w-full">
+    <div className="flex flex-row items-center justify-center py-20 h-[80vh] md:h-auto dark:bg-black-100  w-full">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <motion.div
           initial={{
@@ -70,15 +70,12 @@ export function GlobeDemo() {
           className="div"
         >
           <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-            <TextGenerateEffect
-              words="Upptäck logistik kedjan från råvara till produkt"
-              className="text-center text-[40px] md:text-3xl lg:text-4xl"
-            />
+            Något mmmmmmmmmmmm <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Click me</a>
           </h2>
 
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 pointer-events-none select-none from-transparent" />
-        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
+        <div className="absolute w-full bottom-10 inset-x-0 h-40 pointer-events-none select-none from-transparent" />
+        <div className="w-full -bottom-20 h-72 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>
       </div>
