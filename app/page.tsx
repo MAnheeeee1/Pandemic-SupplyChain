@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import { GlobeDemo } from "@/components/Globe-section";
-import { BentoGridDemo } from "@/components/bento-section";
+import { BentoGridThirdDemo } from "@/components/bento-section";
 import { StickyScrollRevealDemo } from "@/components/Logisitk-kedja";
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Hero/>
         <GlobeDemo/>
-        <BentoGridDemo/>
+        <BentoGridThirdDemo/>
       </div>
       <div className="h-[100vh] w-[100vh]">
       <StickyScrollRevealDemo/>
