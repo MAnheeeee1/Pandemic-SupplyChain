@@ -40,15 +40,15 @@ const Skeleton = () => (
 ); 
 const items = [
   {
-    title: "750kg CO2e",
-    description: "Den totala utsläppet av koldioxid från sjöfarttransport är 750kg koldioxidcl",
+    title: "Sjöfarttransport",
+    description: "Den totala transportsträckan är 45 431km och koldioxidutsläppet är 1.544 tons CO₂ till 1.624 tons CO₂",
     header: <div className="flex flex-1 w-full h-full min-h-[6rem] bg-gradient-to-br rounded-xl  from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
     <img src= {transportMedelBild.båt}/>
   </div>,
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
+    title: "Lastbiltransport ",
+    description: "Den totala transportsträckan är 6117 km och koldioxidutsläppet är 1.544 tons CO₂ till 1.624 tons CO₂",
     header: <div className="flex flex-1 w-full h-full min-h-[6rem] bg-gradient-to-br rounded-xl  from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
     <img src= {transportMedelBild.tåg}/>
   </div>,

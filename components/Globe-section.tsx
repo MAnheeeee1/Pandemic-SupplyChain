@@ -22,7 +22,7 @@ export function GlobeDemo() {
     directionalLeftLight: "#ffffff",
     directionalTopLight: "#ffffff",
     pointLight: "#ffffff",
-    arcTime: 1000,
+    arcTime: 3000,
     arcLength: 0.9,
     rings: 1,
     maxRings: 3,
@@ -33,23 +33,14 @@ export function GlobeDemo() {
   const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
   const sampleArcs = [
     {
-      order: 1,
-      startLat: -121.84,
-      startLng: -24.48,
-      endLat: -8.44,
-      endLng: -46.46,
-      arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
-    },
-    {
-      order: 1,
-      startLat: 28.6139,
-      startLng: 77.209,
-      endLat: 3.139,
-      endLng: 101.6869,
-      arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
-    },
+        order: 1,
+        startLat: -7.7,
+        startLng: -47.54,
+        endLat: -5.77,
+        endLng: -52.41,
+        arcAlt: 0.1,
+        color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      },
   ];
 
   return (
