@@ -114,17 +114,30 @@ const SkeletonTwo = () => {
       whileHover="hover"
       className="flex flex-1 w-full justify-center h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
     >
-      {arr.map((width, i) => (
-        <motion.div
-          key={"skelenton-two" + i}
-          variants={variants}
-          style={{
-            maxWidth: width + "%",
-          }}
-          
-          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-red w-full"
-        ></motion.div>
-      ))}
+      <motion.div
+        key={"skelenton-two" + "1"}
+        variants={variants}
+        style={{     
+             maxWidth: 50 + "%",
+        }}
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-red w-full text-black"
+        ><img src="/LastbilIcon.svg" height={20} width={20}/>Hello</motion.div>
+      <motion.div
+        key={"skelenton-two" + "1"}
+        variants={variants}
+        style={{     
+             maxWidth: 70 + "%",
+        }}
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-red w-full text-black"
+        ><img src="/BoatIcon.svg" height={20} width={20}/>Hello</motion.div>
+      <motion.div
+        key={"skelenton-two" + "1"}
+        variants={variants}
+        style={{     
+             maxWidth: 90 + "%",
+        }}
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-red w-full text-black"
+        ><img src="/BoatIcon.svg" height={20} width={20}/>Hello</motion.div>
     </motion.div>
   );
 };

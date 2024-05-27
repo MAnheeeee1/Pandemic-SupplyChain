@@ -9,8 +9,14 @@ const content = [
     description:
       "Spelplanen, förpackningen, tryck papper fraktas från Irland med båt och från Tysklnad med lastbil, Spelkorten fraktas från Bryssel med lastbil. Alla dessa komonter anländer i hamnen i Rottendam för transport till Kina",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src="/Europa.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -21,7 +27,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src="/Rottendam-Kina.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -35,8 +41,14 @@ const content = [
     description:
       "De färsiga spelen lämnar fabriken i Dunguan till Shanghai med lastbil för att sedan transportras med båt tillbka till Rottendam. I rottendamn fraktas spelen ut med lastbil till våra distrubering center ",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version control
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src="/Europa.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -45,8 +57,14 @@ const content = [
     description:
       "Den totala transportsträckan inkluderat både sjöfart and väg är 51 547 km med en total koldioxidutsläpp på omkring 2,761 till 2,921 ton koldioxid",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src="/Europa.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
