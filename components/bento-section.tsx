@@ -118,26 +118,18 @@ const SkeletonTwo = () => {
         key={"skelenton-two" + "1"}
         variants={variants}
         style={{     
-             maxWidth: 50 + "%",
+             maxWidth: 80 + "%",
         }}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-red w-full text-black"
-        ><img src="/LastbilIcon.svg" height={20} width={20}/>Hello</motion.div>
-      <motion.div
-        key={"skelenton-two" + "1"}
-        variants={variants}
-        style={{     
-             maxWidth: 70 + "%",
-        }}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-red w-full text-black"
-        ><img src="/BoatIcon.svg" height={20} width={20}/>Hello</motion.div>
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-green-600 dark:bg-red w-full text-white"
+        ><img src="/LastbilIcon.svg" height={20} width={20}/>Lastbil 440 kg CO₂</motion.div>
       <motion.div
         key={"skelenton-two" + "1"}
         variants={variants}
         style={{     
              maxWidth: 90 + "%",
         }}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-red w-full text-black"
-        ><img src="/BoatIcon.svg" height={20} width={20}/>Hello</motion.div>
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-green-600 dark:bg-red w-full text-white"
+        ><img src="/BoatIcon.svg" height={20} width={20}/>Fartyg 2,8 ton CO₂</motion.div>
     </motion.div>
   );
 };
@@ -204,32 +196,32 @@ const SkeletonFour = () => {
         className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
         <Image
-          src=""
-          alt="avatar"
+          src="/ISO14001.png"
+          alt="ISO 14001 logo"
           height="100"
           width="100"
-          className="rounded-full h-10 w-10"
+          className="rounded-full h-13 w-13"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Just code in Vanilla Javascript
+          ISO 1101 
         </p>
-        <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Delusional
+        <p className="border border-green-500 bg-red-100 dark:bg-red-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+        <button><a href="https://www.iso.org/standard/62085.htmlS" target="_blank">Läs mer</a></button>
         </p>
       </motion.div>
       <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
         <Image
-          src=""
+          src="/ISO9001.png"
           alt="avatar"
           height="100"
           width="100"
-          className="rounded-full h-10 w-10"
+          className="rounded-full h-13 w-13"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Tailwind CSS is cool, you know
+          ISO 9001S
         </p>
         <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Sensible
+          <button><a href="https://www.iso.org/standard/62085.htmlS" target="_blank">Läs mer</a></button>
         </p>
       </motion.div>
       <motion.div
@@ -237,17 +229,17 @@ const SkeletonFour = () => {
         className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
         <Image
-          src=""
+          src="/SvavelMärk.png"
           alt="avatar"
           height="100"
           width="100"
-          className="rounded-full h-10 w-10"
+          className="rounded-full h-13 w-13"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          I love angular, RSC, and Redux.
+          ISO 14001
         </p>
-        <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Helpless
+        <p className="border border-green-500 bg-orange-100 dark:bg-orange-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+        <button><a href="https://www.iso.org/standard/62085.htmlS" target="_blank">Läs mer</a></button>
         </p>
       </motion.div>
     </motion.div>
@@ -313,10 +305,10 @@ const SkeletonFive = () => {
 };
 const items = [
   {
-    title: "AI Content Generation",
+    title: "Transportsträckor",
     description: (
       <span className="text-sm">
-        Experience the power of AI in generating unique content.
+        Den totala transportsträckan inkluderat sjöfart och lastbil är ca 51 000 km
       </span>
     ),
     header: <SkeletonOne />,
@@ -324,10 +316,10 @@ const items = [
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Automated Proofreading",
+    title: "Koldioxid Utsläpp",
     description: (
       <span className="text-sm">
-        Let AI handle the proofreading of your documents.
+        Den totala mängden koldioxid utsläpp är ca 3.2 ton.
       </span>
     ),
     header: <SkeletonTwo />,
@@ -346,10 +338,10 @@ const items = [
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Sentiment Analysis",
+    title: "Produktens Certifieringar",
     description: (
       <span className="text-sm">
-        Understand the sentiment of your text with AI analysis.
+        Vi har flera certificat på socialt- och klimathållbarhet
       </span>
     ),
     header: <SkeletonFour />,

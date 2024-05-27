@@ -55,7 +55,7 @@ const content = [
   {
     title: "Klimatpåverkan av logstikedjan",
     description:
-      "Den totala transportsträckan inkluderat både sjöfart and väg är 51 547 km med en total koldioxidutsläpp på omkring 2,761 till 2,921 ton koldioxid",
+      "Den totala transportsträckan inkluderat både sjöfart and väg är 51 547 km med en total koldioxidutsläpp på omkring 3.2 ton",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
