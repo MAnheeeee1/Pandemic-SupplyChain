@@ -11,9 +11,12 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { GlobeDemo } from "./Globe-section";
 
 export function BentoGridThirdDemo() {
   return (
+    <div className="flex flex-col justify-center ">
+      <h1 className="text-center md:tracking-wider mb-40 mt-40 text-lg md:text-2lg lg:text-4xl">Översikt över logstikedjan</h1>
     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
@@ -26,6 +29,8 @@ export function BentoGridThirdDemo() {
         />
       ))}
     </BentoGrid>
+    </div>
+
   );
 }
 const Skeleton = () => (
@@ -76,14 +81,14 @@ const SkeletonOne = () => {
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
       >
         <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
-        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
+        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-green-500 to-violet-500 flex-shrink-0" />
       </motion.div>
       <motion.div
         variants={variants}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
       >
-        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
-        <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
+        <div className="h-7 w-7 rounded-full bg-gradient-to-r from-blue-500 to-violet-500 flex-shrink-0"><img src="/BoatIcon.svg"/></div>
+        <p>Hello</p>
       </motion.div>
     </motion.div>
   );
@@ -159,7 +164,7 @@ const SkeletonThree = () => {
         backgroundSize: "400% 400%",
       }}
     >
-      <motion.div className="h-full w-full rounded-lg"></motion.div>
+      <motion.div className="h-full w-full rounded-lg"><GlobeDemo/></motion.div>
     </motion.div>
   );
 };
@@ -272,6 +277,7 @@ const SkeletonFive = () => {
   };
 
   return (
+
     <motion.div
       initial="initial"
       whileHover="animate"
@@ -301,6 +307,7 @@ const SkeletonFive = () => {
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
       </motion.div>
     </motion.div>
+
   );
 };
 const items = [
@@ -327,10 +334,10 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Contextual Suggestions",
+    title: "Fraktvägen ",
     description: (
       <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
+        Tillverkas och transporteras mellan 5 olika länder utöver två kontineter
       </span>
     ),
     header: <SkeletonThree />,
@@ -348,7 +355,6 @@ const items = [
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
-
   {
     title: "Text Summarization",
     description: (

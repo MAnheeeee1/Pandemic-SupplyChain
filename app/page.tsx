@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import { GlobeDemo } from "@/components/Globe-section";
 import { BentoGridThirdDemo } from "@/components/bento-section";
 import { StickyScrollRevealDemo } from "@/components/Logisitk-kedja";
 import {FooterSection} from "@/components/footer";
@@ -10,7 +9,6 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Hero/>
         <StickyScrollRevealDemo/>
-        <GlobeDemo/>
         <BentoGridThirdDemo/>
       </div>
     </main>
