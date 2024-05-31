@@ -17,7 +17,7 @@ import { CanvasRevealEffectDemo } from "./information-reveal";
 export function BentoGridThirdDemo() {
   return (
     <div className="flex flex-col justify-center ">
-      <h1 className="text-center md:tracking-wider mb-40 mt-40 text-lg md:text-2lg lg:text-4xl">Översikt över logstikedjan</h1>
+      <h1 className="text-center md:tracking-wider mb-20 mt-40 text-lg md:text-2lg lg:text-4xl font-bold">Översikt över logstikedjan</h1>
     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
