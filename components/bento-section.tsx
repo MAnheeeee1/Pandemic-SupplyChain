@@ -126,7 +126,7 @@ const SkeletonTwo = () => {
              maxWidth: 80 + "%",
         }}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-green-600 dark:bg-red w-full text-white"
-        ><img src="/LastbilIcon.svg" height={20} width={20}/>Lastbil 440 kg CO₂</motion.div>
+        ><img src="/LastbilIcon.svg" height={20} width={20}/>Lastbil 0,45kg CO₂</motion.div>
       <motion.div
         key={"skelenton-two" + "1"}
         variants={variants}
@@ -134,7 +134,7 @@ const SkeletonTwo = () => {
              maxWidth: 90 + "%",
         }}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-green-600 dark:bg-red w-full text-white"
-        ><img src="/BoatIcon.svg" height={20} width={20}/>Fartyg 2,8 ton CO₂</motion.div>
+        ><img src="/BoatIcon.svg" height={20} width={20}/>Fartyg 2 900 kg CO₂</motion.div>
     </motion.div>
   );
 };
@@ -326,7 +326,7 @@ const items = [
     title: "Koldioxid Utsläpp",
     description: (
       <span className="text-sm">
-        Den totala mängden koldioxid utsläpp är ca 3.2 ton.
+        Den totala mängden koldioxid utsläpp är ca 3 300 kg.
       </span>
     ),
     header: <SkeletonTwo />,

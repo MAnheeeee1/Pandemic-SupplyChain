@@ -11,7 +11,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/Europa.png"
+          src="/EuropaKarta.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -21,14 +21,14 @@ const content = [
     ),
   },
   {
-    title: "Slutmontering i Kina",
+    title: "Komponenter från Kina",
     description:
       "Spelpjäserna, korten och andra tryck papper tillverkas av våra utvalda levarntörer i Shenzhen, Ningbo, Guangzhou för att sedan transporteras till Dongguan. Kompoenter från Europa anländer till hamnen i Shanghai för att sedan transportas med lastbil till Dunguan där allt sätts ihop till ett färdig spel",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/Rottendam-Kina.png"
-          width={300}
+          src="/kina.png"
+          width={500}
           height={300}
           className="h-full w-full object-cover"
           alt="linear board demo"
@@ -37,13 +37,13 @@ const content = [
     ),
   },
   {
-    title: "Distribuering av varor",
+    title: "Slutmontering och distrubution",
     description:
-      "De färsiga spelen lämnar fabriken i Dunguan till Shanghai med lastbil för att sedan transportras med båt tillbka till Rottendam. I rottendamn fraktas spelen ut med lastbil till våra distrubering center ",
+      "Både komponeter från Europa fraktas till Dungguan och tillsammans med lokala komponenter monteras allt samman till ett färdig spel De färsiga spelen lämnar fabriken i Dunguan till Shanghai med lastbil för att sedan transportras med båt tillbka till Rottendam. I rottendamn fraktas spelen ut med lastbil till våra distrubering center ",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/Europa.png"
+          src="/EuroAsien.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -55,11 +55,11 @@ const content = [
   {
     title: "Klimatpåverkan av logstikedjan",
     description:
-      "Den totala transportsträckan inkluderat både sjöfart and väg är 51 547 km med en total koldioxidutsläpp på omkring 3.2 ton",
+      "Den totala transportsträckan inkluderat både sjöfart and väg är 51 547 km med en total koldioxidutsläpp på omkring 3 300 kg per spel",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/Europa.png"
+          src="/jordglob.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
