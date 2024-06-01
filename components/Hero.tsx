@@ -63,7 +63,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Transparanta för ett hållbart produktion.
           </p>
-             <a href="#about">
+             <a href="#logistikKedja">
               <MagicButton
                 title="Upptäck"
                 icon={<MdApi />}
