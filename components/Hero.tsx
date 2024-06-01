@@ -57,7 +57,7 @@ const Hero = () => {
            */}
           <TextGenerateEffect
             words="Upptäck logistik kedjan från råvara till produkt"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[40px] md:text-5xl sm:text-xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">

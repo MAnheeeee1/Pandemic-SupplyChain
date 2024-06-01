@@ -3,11 +3,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import { useMediaQuery } from 'react-responsive';
 const World = dynamic(() => import("./ui/Globe").then((m) => m.World), {
   ssr: false,
 });
 
 export function GlobeDemo() {
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const globeConfig = {
     pointSize: 4,
     globeColor: "#062056",
